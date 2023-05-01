@@ -1,0 +1,41 @@
+header {
+  align-items: center;
+
+  background-color: #444444;
+
+  color: #FFF;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 15px 20px;
+}
+
+h1 {
+  align-items: center;
+
+  display: flex;
+
+  gap: 12px;
+}
+
+img {
+  width: 50px;
+}
+
+ul {
+  display: flex;
+}
+
+a {
+  border-radius: 8px;
+
+  color: #FFF;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  padding: 15px 25px;
+}
