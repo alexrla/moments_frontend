@@ -11,12 +11,6 @@
 
 a {
   text-decoration: none;
-
-  transition: .4s;
-}
-
-a:hover {
-  background-color: #FF4E7B;
 }
 
 ul {

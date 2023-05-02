@@ -1,12 +1,15 @@
 <header>
-  <h1>
-    <img [src]="logo" alt="Logo">
-    Moments
-  </h1>
+  <a routerLink="/">
+    <h1>
+      <img [src]="logo" alt="Logo | Moments">
+      Moments
+    </h1>
+  </a>
   <nav>
     <ul>
-      <li><a routerLink="/">Início</a></li>
-      <li><a routerLink="/about">Sobre</a></li>
+      <li><a routerLink="/" class="links">Início</a></li>
+      <li><a routerLink="/moments/new" class="links">Compartilhar</a></li>
+      <li><a routerLink="/about" class="links">Sobre</a></li>
     </ul>
   </nav>
 </header>
