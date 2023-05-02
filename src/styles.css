@@ -71,3 +71,14 @@ input[type="submit"]:hover {
 
   color: #FFF;
 }
+
+/* VALIDATION FORM */
+.validation-error p {
+  color: #DC3545;
+
+  font-size: .9em;
+
+  margin-top: .4em;
+
+  padding-left: .2em;
+}
