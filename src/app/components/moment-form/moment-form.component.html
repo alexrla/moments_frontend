@@ -26,7 +26,7 @@
   </div>
   <div class="form-group">
     <label for="image">Escolha uma imagem que simbolize o seu momento:</label>
-    <input type="file" id="image">
+    <input type="file" id="image" (change)="onFileSelected($event)">
   </div>
   <input type="submit" value="{{ btnText }}">
 </form>
