@@ -1,0 +1,11 @@
+h2 {
+  font-size: 2.2em;
+
+  margin-bottom: 1em;
+
+  text-align: center;
+}
+
+h2 span {
+  color: #FF4E7B;
+}

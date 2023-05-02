@@ -16,3 +16,58 @@ a {
 ul {
   list-style: none;
 }
+
+/* FORM */
+form {
+  margin: 0 auto;
+
+  width: 500px;
+}
+
+.form-group {
+  display: flex;
+
+  flex-direction: column;
+
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  font-size: .9em;
+
+  font-weight: bold;
+
+  margin-bottom: .6em;
+}
+
+.form-group :is(input, textarea) {
+  font-size: .9em;
+
+  padding: .6em;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+
+  border: 2px solid #FF4E7B;
+
+  border-radius: 5px;
+
+  color: #FF4E7B;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+  font-size: 1em;
+
+  padding: .6em 1em;
+
+  transition: .4s;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF4E7B;
+
+  color: #FFF;
+}
