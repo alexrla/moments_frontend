@@ -1,7 +1,7 @@
 .container {
-  margin-top: 2em;
+  margin-top: 2.5em;
 
-  min-height: 75vh;
+  min-height: 70vh;
 
-  padding: 10px 40px;
+  padding: 0 40px;
 }
