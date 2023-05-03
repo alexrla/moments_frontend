@@ -1,0 +1,45 @@
+.message {
+  background-color: #444444;
+
+  border: 3px solid #FF4E7B;
+
+  color: #FFF;
+
+  left: -25%;
+
+  margin-left: 50%;
+
+  padding: 1.5em;
+
+  position: fixed;
+
+  top: 3em;
+
+  width: 50%;
+
+  z-index: 10;
+}
+
+.message__header {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.message__header button {
+  background-color: #FF4E7B;
+
+  border: 2px solid transparent;
+
+  color: #FFF;
+
+  cursor: pointer;
+
+  padding: .5em;
+
+  transition: .3s;
+}
+
+.message__header button:hover {
+  border: 2px solid #FFF;
+}
