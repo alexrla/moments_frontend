@@ -18,7 +18,7 @@ export class NewMomentComponent {
     private router: Router,
   ) {}
 
-  async createHandler(moment: IMoment) {
+  createHandler(moment: IMoment) {
     const formData = new FormData();
 
     formData.append("title", moment.title);

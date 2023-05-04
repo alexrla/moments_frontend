@@ -1,4 +1,5 @@
 <form (ngSubmit)="submit()" [formGroup]="momentForm" #formDir="ngForm">
+  <input type="hidden" formControlName="id">
   <div class="form-group">
     <label for="title">Título:</label>
     <input 
@@ -28,5 +29,5 @@
     <label for="image">Escolha uma imagem que simbolize o seu momento:</label>
     <input type="file" id="image" (change)="onFileSelected($event)">
   </div>
-  <input type="submit" value="{{ btnText }}">
+  <input type="submit" value="{{ btnText }}" class="submit-btn">
 </form>

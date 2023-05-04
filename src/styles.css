@@ -17,6 +17,17 @@ ul {
   list-style: none;
 }
 
+.section-title {
+  font-size: 2.2em;
+
+  margin-bottom: 1em;
+
+  text-align: center;
+}
+.section-title span {
+  color: #FF4E7B;
+}
+
 /* FORM */
 form {
   margin: 0 auto;
@@ -46,30 +57,8 @@ form {
   padding: .6em;
 }
 
-input[type="submit"] {
-  background-color: transparent;
-
-  border: 2px solid #FF4E7B;
-
-  border-radius: 5px;
-
-  color: #FF4E7B;
-
-  cursor: pointer;
-
-  font-weight: bold;
-
-  font-size: 1em;
-
-  padding: .6em 1em;
-
-  transition: .4s;
-}
-
-input[type="submit"]:hover {
-  background-color: #FF4E7B;
-
-  color: #FFF;
+.form-group textarea {
+  height: 200px;
 }
 
 /* VALIDATION FORM */
@@ -84,6 +73,7 @@ input[type="submit"]:hover {
 }
 
 /* BUTTONS */
+.submit-btn,
 .edit-btn,
 .remove-btn {
   background-color: #FFF;
@@ -101,6 +91,12 @@ input[type="submit"]:hover {
   transition: .4s;
 }
 
+.submit-btn {
+  border: 2px solid #00A27B;
+
+  color: #00A27B;
+}
+
 .edit-btn {
   border: 2px solid #208AD8;
 
@@ -111,6 +107,12 @@ input[type="submit"]:hover {
   border: 2px solid #F10047;
 
   color: #F10047;
+}
+
+.submit-btn:hover {
+  background-color: #00A27B;
+
+  color: #FFF;
 }
 
 .edit-btn:hover {

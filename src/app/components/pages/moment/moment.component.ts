@@ -27,12 +27,12 @@ export class MomentComponent implements OnInit {
     this.momentService.getMoment(id).subscribe(response => this.moment = response.data);
   }
 
-  async removeMoment(id: number) {
+  removeMoment(id: number) {
     this.momentService.deleteMoment(id).subscribe({
       next: () => {
         this.messagesService.add("Momento excluído com sucesso!");
         this.router.navigate(["/"]);
       }
-    })
+    });
   }
 }
