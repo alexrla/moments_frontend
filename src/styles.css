@@ -82,3 +82,45 @@ input[type="submit"]:hover {
 
   padding-left: .2em;
 }
+
+/* BUTTONS */
+.edit-btn,
+.remove-btn {
+  background-color: #FFF;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-size: 1.2em;
+
+  font-weight: bold;
+
+  padding: .4em 1em;
+
+  transition: .4s;
+}
+
+.edit-btn {
+  border: 2px solid #208AD8;
+
+  color: #208AD8;
+}
+
+.remove-btn {
+  border: 2px solid #F10047;
+
+  color: #F10047;
+}
+
+.edit-btn:hover {
+  background-color: #208AD8;
+
+  color: #FFF;
+}
+
+.remove-btn:hover {
+  background-color: #F10047;
+
+  color: #FFF;
+}

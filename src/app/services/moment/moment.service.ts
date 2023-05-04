@@ -22,4 +22,14 @@ export class MomentService {
   getMoments(): Observable<IResponse<IMoment[]>> {
     return this.http.get<IResponse<IMoment[]>>(this.apiURL);
   }
+
+  getMoment(id: number): Observable<IResponse<IMoment>> {
+    const url = `${this.apiURL}/${id}`;
+    return this.http.get<IResponse<IMoment>>(url);
+  }
+
+  deleteMoment(id: number) {
+    const url = `${this.apiURL}/${id}`;
+    return this.http.delete(url);
+  }
 }

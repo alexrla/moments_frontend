@@ -1,0 +1,50 @@
+.moment {
+  align-items: center;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  margin: 0 auto 2em;
+
+  max-width: 500px;
+
+  width: 90%
+}
+
+.moment img,
+.about-moment {
+  width: 100%;
+}
+
+.about-moment {
+  margin-bottom: 1.5em;
+}
+
+.about-moment h2 {
+  padding: 0.8em 0;
+
+  text-align: start;
+}
+
+.about-moment p {
+  font-style: italic;
+
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+
+  gap: 40px;
+
+  margin-bottom: 2em;
+}
+
+.comments {
+  text-align: start;
+
+  width: 100%;
+}
