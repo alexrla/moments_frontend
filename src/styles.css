@@ -44,7 +44,7 @@ form {
 }
 
 .form-group label {
-  font-size: .9em;
+  font-size: 1em;
 
   font-weight: bold;
 
@@ -52,7 +52,7 @@ form {
 }
 
 .form-group :is(input, textarea) {
-  font-size: .9em;
+  font-size: 1em;
 
   padding: .6em;
 }

@@ -7,9 +7,9 @@
 
   justify-content: center;
 
-  margin: 0 auto 2em;
+  margin: 0 auto 2.5em;
 
-  max-width: 500px;
+  max-width: 800px;
 
   width: 90%
 }
@@ -19,18 +19,20 @@
   width: 100%;
 }
 
+.moment img {
+  margin-bottom: .8em;
+}
+
 .about-moment {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.8em;
 
   text-align: justify;
 }
 
-.about-moment h2 {
-  padding: 0.8em 0;
-}
-
 .about-moment p {
   font-style: italic;
+
+  padding-top: .5em;
 }
 
 .actions {
@@ -45,4 +47,59 @@
   text-align: start;
 
   width: 100%;
+}
+
+.comments h3 {
+  margin-bottom: .9em;
+}
+
+.comment-container {
+  margin-bottom: 1em; 
+}
+
+.comment-info {
+  border-bottom: 1px solid #444444;
+
+  display: flex;
+
+  flex-direction: column;
+
+  font-weight: bold;
+
+  gap: 8px;
+
+  padding: .7em;
+}
+
+.comment {
+  color: #444444;
+
+  font-size: 1.1em;
+}
+
+.author {
+  color: #A8A8A8;
+
+  font-size: 1em;
+
+  font-style: italic;
+}
+
+.warning {
+  padding: 1em 0;
+
+  text-align: center;
+}
+
+.comment-form {
+  margin-top: 1.5em;
+}
+
+.submit-btn {
+  font-size: 1em;
+}
+
+/* FORM */
+.form-group textarea {
+  height: 50px;
 }
