@@ -32,6 +32,9 @@
           formControlName="text"
           required
         ></textarea>
+        <div *ngIf="text.invalid && formDir.submitted" class="validation-error">
+          <p *ngIf="text.errors?.['required']">Campo obrigatório.</p>
+        </div>
       </div>
       <div class="form-group">
         <label for="username">Nome:</label>
@@ -43,7 +46,7 @@
           required
         >
         <div *ngIf="username.invalid && formDir.submitted" class="validation-error">
-          <p *ngIf="username.errors?.['required']">o seu nome é obrigatório.</p>
+          <p *ngIf="username.errors?.['required']">Campo obrigatório.</p>
         </div>
       </div>
       <input type="submit" value="Comentar" class="submit-btn">

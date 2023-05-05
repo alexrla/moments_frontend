@@ -39,7 +39,7 @@ export class MomentComponent implements OnInit {
   }
 
   get text() {
-    return this.commentForm.get("text");
+    return this.commentForm.get("text")!;
   }
 
   get username() {
